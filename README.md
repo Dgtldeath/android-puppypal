@@ -22,7 +22,7 @@ MVVM Pattern: Uses PuppyViewModel to manage puppy data and business logic, obser
 Jetpack Navigation: Implements a single-activity architecture with MainActivity hosting a NavHostFragment, navigating between HomeFragment, BrowseFragment, and SettingsFragment via nav_graph.xml.
 View Binding: Employs type-safe binding (e.g., FragmentHomeBinding, FragmentBrowseBinding) across all fragments for efficient view management.
 Core Features:
-API Integration: Fetches puppy data (name, breed, age, lat/lon) from https://adamgumm.com/puppies.php using Retrofit (ApiService.kt), parsed with Gson into a Puppy data class.
+API Integration: Fetches puppy data (name, breed, age, lat/lon) from https://your-third-party-domain.com/puppies.php using Retrofit (ApiService.kt), parsed with Gson into a Puppy data class.
 Puppy List Display: BrowseFragment renders a RecyclerView with PuppyAdapter, showing 18 puppies sorted by distance from Columbus, Ohio (39.9612, -82.9988), calculated using Location.distanceBetween.
 Real-Time Filtering: A TextWatcher in BrowseFragment filters the puppy list by breed as users type, updating the RecyclerView dynamically.
 Settings Persistence: SettingsFragment saves preferred breeds to SharedPreferences, retrievable on relaunch.
