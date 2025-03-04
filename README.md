@@ -47,7 +47,8 @@ Kotlin: kotlinx-coroutines-android
 Material: com.google.android.material
 Future Potential:
 
-# Enable user location sorting with FusedLocationProviderClient (code commented out).
+# Future versions: 
+Enable user location sorting with FusedLocationProviderClient (code commented out).
 Add loading/error states and UI animations for polish.
 Expand to paginated API results.
 PuppyPal demonstrates proficiency in Kotlin, Android Jetpack, and RESTful integration.
